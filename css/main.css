@@ -23,7 +23,7 @@ body {
 
 
 @media (max-width: 767px) {
-  .slide { {
+  .slide {
     height: calc(100vh - 136px);
   }
 }
