@@ -21,6 +21,13 @@ body {
     position: relative;
 }
 
+
+@media (max-width: 767px) {
+  .slide { {
+    height: calc(100vh - 136px);
+  }
+}
+
 .slide .image {
   background-size: cover;
 }
