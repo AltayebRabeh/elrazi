@@ -130,6 +130,13 @@ html[dir="rtl"] .link::before {
   color: #bb2924;
 }
 
+@media (max-width: 767px) {
+  .navbar-nav {
+    display: block !important;
+    width: 100%;
+  }
+}
+
 .btn-primary {
   border-radius: 0;
   background-color: #03045e;
